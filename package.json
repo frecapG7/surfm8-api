@@ -1,0 +1,26 @@
+{
+  "name": "surfm8-api",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server/main.js -w src/server",
+    "start": "cross-env NODE_ENV=production node src/server/main.js",
+    "build": "vite build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^8.9.5",
+    "vite-express": "*",
+    "vue": "^3.3.8"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "nodemon": "^3.1.9",
+    "sinon": "^19.0.2",
+    "vite": "^5.0.2",
+    "vitest": "^3.0.4"
+  }
+}
