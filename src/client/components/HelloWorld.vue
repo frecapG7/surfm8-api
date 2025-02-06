@@ -11,12 +11,10 @@ const count = ref(0);
 <template>
   <h1>{{ msg }}</h1>
 
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
+  <h1 class="text-3xl font-bold underline">    Hello world!  </h1>
+
+  <div class="display-flex-center-width-100">
+    test
   </div>
 
   <p>
