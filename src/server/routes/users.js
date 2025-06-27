@@ -1,5 +1,9 @@
 import express from "express";
-import { create, getByUsername } from "../service/users/usersService.js";
+import {
+  create,
+  getByUsername,
+  verifyUsernameUnicity,
+} from "../service/users/usersService.js";
 const app = express();
 
 app.get("/users/:username", async (req, res) => {

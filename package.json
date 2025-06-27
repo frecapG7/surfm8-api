@@ -10,12 +10,21 @@
     "test": "vitest"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/vue-fontawesome": "^3.0.8",
     "@tailwindcss/vite": "^4.0.3",
+    "@tanstack/vue-query": "^5.66.0",
+    "@tanstack/vue-query-devtools": "^5.66.0",
+    "axios": "^1.7.9",
     "cross-env": "^7.0.3",
     "dotenv": "^16.4.7",
     "express": "^5.0.1",
     "mongoose": "^8.9.5",
     "tailwindcss": "^4.0.3",
+    "vee-validate": "^4.15.0",
     "vite-express": "*",
     "vue": "^3.3.8",
     "vue-router": "^4.5.0"
